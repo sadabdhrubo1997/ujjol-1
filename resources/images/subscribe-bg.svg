@@ -1,10 +1,10 @@
 <svg width="1134" height="249" viewBox="0 0 1134 249" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_2_740)">
-<rect y="0.160889" width="1134" height="249" rx="8" fill="#2698EA"/>
-<rect y="0.160889" width="1134" height="249" rx="8" fill="url(#paint0_linear_2_740)"/>
+<rect y="0.160889" width="1134" height="249" fill="#2698EA"/>
+<rect y="0.160889" width="1134" height="249" fill="url(#paint0_linear_2_740)"/>
 <mask id="mask0_2_740" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1134" height="250">
-<rect y="0.160889" width="1134" height="249" rx="8" fill="#2698EA"/>
-<rect y="0.160889" width="1134" height="249" rx="8" fill="url(#paint1_linear_2_740)"/>
+<rect y="0.160889" width="1134" height="249" fill="#2698EA"/>
+<rect y="0.160889" width="1134" height="249" fill="url(#paint1_linear_2_740)"/>
 </mask>
 <g mask="url(#mask0_2_740)">
 </g>

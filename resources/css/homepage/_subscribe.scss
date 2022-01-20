@@ -1,0 +1,68 @@
+#subscribe {
+  margin: 13rem 0 10rem 0;
+
+  .subscribe-inner {
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+    background-image: url(../images/subscribe-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 24.9rem;
+    width: 100%;
+    padding: 6.4rem 8.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      font-size: 4.5rem;
+      max-width: 17ch;
+      color: #fff;
+      line-height: 1.4;
+    }
+
+    form {
+    //   background-color: #f3f4f8;
+      display: flex;
+      align-items: center;
+      border-radius: 1rem;
+      -webkit-border-radius: 1rem;
+      -moz-border-radius: 1rem;
+      -ms-border-radius: 1rem;
+      -o-border-radius: 1rem;
+      overflow: hidden;
+      .input-wrapper {
+        input {
+          border: none;
+          outline: none;
+          font-size: 1.6rem;
+          color: #3d6bf5;
+          font-weight: 500;
+          padding: 2.33rem 4rem 2.33rem 2rem;
+          background-color: rgb(255, 255, 255);
+          display: inline-flex;
+          margin-right: -2rem;
+
+          &:focus {
+            border: none;
+            outline: none;
+          }
+        }
+      }
+      button {
+        padding: 2.4rem 3.6rem;
+        height: 100%;
+        border-radius: 0.5rem;
+        -webkit-border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+      }
+    }
+  }
+}

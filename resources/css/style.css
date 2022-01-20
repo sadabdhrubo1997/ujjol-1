@@ -43,6 +43,9 @@ body {
   -moz-border-radius: 0.4rem;
   -ms-border-radius: 0.4rem;
   -o-border-radius: 0.4rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 .btn-primary:hover {
@@ -237,8 +240,8 @@ body {
 #client-galary .video-thumbnail-wrapper::after {
   position: absolute;
   content: "";
-  bottom: -6.5rem;
-  right: -5.8rem;
+  bottom: -6rem;
+  right: -6.2rem;
   width: 14.5rem;
   height: 16.6rem;
   background-image: url(../vectors/galary-vector-1.svg);
@@ -386,5 +389,86 @@ body {
     height: 20rem;
     opacity: 0;
   }
+}
+
+#subscribe {
+  margin: 13rem 0 10rem 0;
+}
+
+#subscribe .subscribe-inner {
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+  background-image: url(../images/subscribe-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 24.9rem;
+  width: 100%;
+  padding: 6.4rem 8.9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#subscribe .subscribe-inner h2 {
+  font-size: 4.5rem;
+  max-width: 17ch;
+  color: #fff;
+  line-height: 1.4;
+}
+
+#subscribe .subscribe-inner form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  overflow: hidden;
+}
+
+#subscribe .subscribe-inner form .input-wrapper input {
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+  color: #3d6bf5;
+  font-weight: 500;
+  padding: 2.33rem 4rem 2.33rem 2rem;
+  background-color: white;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: -2rem;
+}
+
+#subscribe .subscribe-inner form .input-wrapper input:focus {
+  border: none;
+  outline: none;
+}
+
+#subscribe .subscribe-inner form button {
+  padding: 2.4rem 3.6rem;
+  height: 100%;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 /*# sourceMappingURL=style.css.map */

@@ -41,6 +41,9 @@ body {
   -moz-border-radius: 0.4rem;
   -ms-border-radius: 0.4rem;
   -o-border-radius: 0.4rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
 
   &:hover {
     background-color: #427bee;
