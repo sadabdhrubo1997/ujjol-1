@@ -1,0 +1,113 @@
+#header {
+  background-image: url("../images/header-bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  .header-inner {
+    width: 100%;
+    padding-bottom: 19.7rem;
+
+    .menu {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2.5rem 0;
+
+      .logo {
+        width: 14.5rem;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      nav {
+        ul {
+          list-style: none;
+          display: flex;
+
+          li {
+            a {
+              text-decoration: none;
+              padding: 0 1.25rem;
+              color: rgba(255, 255, 255, 0.7);
+              font-weight: 500;
+              font-size: 1.6rem;
+              transition: 0.3s;
+              -webkit-transition: 0.3s;
+              -moz-transition: 0.3s;
+              -ms-transition: 0.3s;
+              -o-transition: 0.3s;
+
+              &:hover {
+                color: rgba(255, 255, 255, 1);
+              }
+            }
+          }
+        }
+      }
+
+      .cta.btn-primary {
+        padding: 1rem 2rem;
+      }
+    }
+
+    .header-inner-content {
+      margin-top: 5.7rem;
+
+      h1 {
+        font-size: 6.7rem;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 2.2rem;
+      }
+
+      .line-shape-wrapper {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 34rem;
+
+        .line {
+          width: calc(50% - 1.7rem);
+          height: 0.1rem;
+          background-color: rgb(255, 255, 255);
+        }
+
+        .square {
+          width: 1.1rem;
+          height: 1.1rem;
+          border: 0.1rem solid #fff;
+          transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+        }
+      }
+
+      .breadcrumb-wrapper {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+          font-size: 1.6rem;
+          font-weight: 500;
+          color: #fff;
+        }
+
+        img {
+          display: inline-block;
+          margin: 0 1.1rem;
+          width: .8rem;
+        }
+      }
+    }
+  }
+}
