@@ -231,6 +231,21 @@ body {
   width: 58.5rem;
   padding: 0;
   margin: 0;
+  position: relative;
+}
+
+#client-galary .video-thumbnail-wrapper::after {
+  position: absolute;
+  content: "";
+  bottom: -6.5rem;
+  right: -5.8rem;
+  width: 14.5rem;
+  height: 16.6rem;
+  background-image: url(../vectors/galary-vector-1.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 99;
 }
 
 #client-galary .video-thumbnail-wrapper .video-thumbnail {
@@ -243,6 +258,7 @@ body {
   padding: 1.3rem;
   background-color: #64869f;
   position: relative;
+  z-index: 999;
 }
 
 #client-galary .video-thumbnail-wrapper .video-thumbnail img.thumbnail {
@@ -253,6 +269,7 @@ body {
   -o-border-radius: 1rem;
   width: 100%;
   height: auto;
+  pointer-events: none;
 }
 
 #client-galary .video-thumbnail-wrapper .video-thumbnail .play-button-behind1,
