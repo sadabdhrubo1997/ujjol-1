@@ -1,0 +1,103 @@
+footer {
+  background-color: #11161f;
+
+  .footer-inner {
+    color: rgb(255, 255, 255);
+    border-bottom: 0.1rem solid #64646c;
+    padding: 6rem 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+    }
+
+    .single-column {
+      img {
+        width: 13.8rem;
+        margin-bottom: 1.6rem;
+      }
+
+      p {
+        line-height: 1.6;
+        color: #b1b1b5;
+        font-size: 1.6rem;
+        font-weight: 400;
+      }
+
+      h2 {
+        color: #f3f4f8;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 3rem;
+      }
+
+      li {
+        list-style: none;
+        margin-bottom:1.2rem;
+
+        a {
+          color: #b1b1b5;
+          transition: 0.3s;
+          -webkit-transition: 0.3s;
+          -moz-transition: 0.3s;
+          -ms-transition: 0.3s;
+          -o-transition: 0.3s;
+          font-size: 1.6rem;
+          font-weight: 400;
+
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .copyright {
+    padding: 3.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+      color: #b1b1b5;
+      font-weight: 500;
+      font-size: 1.4rem;
+    }
+
+    .social-links-wrapper {
+      display: flex;
+      .social-link {
+        display: inline-flex;
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 100%;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -o-border-radius: 100%;
+        background-color: rgba(243, 244, 248, 0.1);
+        justify-content: center;
+        align-items: center;
+        margin: 0 0.5rem;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+
+        &:hover {
+          background-color: rgb(79, 136, 255);
+        }
+
+        img {
+          width: 2rem;
+          height: auto;
+        }
+      }
+    }
+  }
+}
