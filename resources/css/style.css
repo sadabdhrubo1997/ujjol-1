@@ -621,4 +621,229 @@ footer .copyright .social-links-wrapper .social-link img {
   width: 2rem;
   height: auto;
 }
+
+.our-millionaires .our-millionaires-inner h2 {
+  text-align: center;
+  font-size: 5.1rem;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: #11161f;
+}
+
+.our-millionaires .our-millionaires-inner p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+  color: #11161f;
+  opacity: 0.7;
+  margin: 0 auto;
+  max-width: 73ch;
+  margin-bottom: 6.6rem;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item {
+  width: 31.33%;
+  background: #ffffff;
+  -webkit-box-shadow: 1rem 1.7rem 42px rgba(0, 0, 0, 0.07);
+          box-shadow: 1rem 1.7rem 42px rgba(0, 0, 0, 0.07);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  margin: 0 1% 2.3rem 1%;
+  position: relative;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 4.5rem;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .top .cover {
+  width: 67.5%;
+  height: 30rem;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  overflow: hidden;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .top .cover img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .top .social-links {
+  width: calc(100% - 67.5%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  padding: 2.5rem;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .top .social-links a {
+  width: 4.7rem;
+  height: 4.7rem;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  -webkit-box-shadow: 0.5rem 0.6rem 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0.5rem 0.6rem 25px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .top .social-links a img {
+  width: 2.1rem;
+  height: auto;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .review-screenshot {
+  position: absolute;
+  top: 18.8rem;
+  right: 2.5rem;
+  width: 70%;
+  height: 14.4rem;
+  background: #ffffff;
+  -webkit-box-shadow: 0.55rem 0.65rem 26.9565px rgba(0, 0, 0, 0.1);
+          box-shadow: 0.55rem 0.65rem 26.9565px rgba(0, 0, 0, 0.1);
+  border-radius: 0.65rem;
+  -webkit-border-radius: 0.65rem;
+  -moz-border-radius: 0.65rem;
+  -ms-border-radius: 0.65rem;
+  -o-border-radius: 0.65rem;
+  overflow: hidden;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .review-screenshot img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .bottom {
+  padding: 2.5rem;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .bottom .person-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 6rem;
+  margin-bottom: 2rem;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .bottom .person-info .avater {
+  width: 6rem;
+  height: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 2rem;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .bottom .person-info .avater img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .bottom .person-info .right {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .bottom .person-info .right h3 {
+  color: #11161f;
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .bottom .person-info .right p {
+  margin: 0;
+  color: #11161f;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.our-millionaires .our-millionaires-inner .item-wrapper .single-item .bottom a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000;
+  display: block;
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 2.1rem;
+  font-weight: 500;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+}
+
+.our-millionaires .our-millionaires-inner .see-all-button-wrapper {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.our-millionaires .our-millionaires-inner .see-all-button-wrapper a {
+  text-decoration: none;
+  padding: 1.5rem 6rem;
+}
+
+#our-millionaires-video {
+  margin-top: 15rem;
+}
 /*# sourceMappingURL=style.css.map */
