@@ -26,6 +26,7 @@
       .button-wrapper {
         display: flex;
         justify-content: start;
+        margin-bottom: 0;
 
         .btn-primary {
           padding: 1.5rem 3rem;
@@ -157,5 +158,30 @@
     width: 20rem;
     height: 20rem;
     opacity: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  #client-galary {
+    .client-galary-inner {
+      .content-wrapper {
+        width: 100%;
+        text-align: center;
+
+        .button-wrapper {
+          justify-content: center;
+          margin-bottom: 3rem;
+
+          .btn-primary {
+            padding: 1.5rem 3rem;
+          }
+        }
+      }
+      .video-thumbnail-wrapper {
+        width: 80%;
+        padding: 0;
+        margin: 0 auto;
+      }
+    }
   }
 }

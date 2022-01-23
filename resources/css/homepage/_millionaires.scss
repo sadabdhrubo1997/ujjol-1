@@ -22,6 +22,7 @@
 
     .item-wrapper {
       display: flex;
+      justify-content: center;
       flex-wrap: wrap;
 
       .single-item {
@@ -184,8 +185,30 @@
   }
 }
 
+@media (max-width: 768px) {
+  .our-millionaires {
+    .our-millionaires-inner {
+      .item-wrapper {
+        .single-item {
+          width: 48%;
+        }
+      }
+    }
+  }
+}
 
+@media (max-width: 576px) {
+  .our-millionaires {
+    .our-millionaires-inner {
+      .item-wrapper {
+        .single-item {
+          width: 98%;
+        }
+      }
+    }
+  }
+}
 
-#our-millionaires-video{
-    margin-top: 15rem;
+#our-millionaires-video {
+  margin-top: 15rem;
 }

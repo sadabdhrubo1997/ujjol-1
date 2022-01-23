@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 24.9rem;
+    height: auto;
     width: 100%;
     padding: 6.4rem 8.9rem;
     display: flex;
@@ -24,6 +24,8 @@
       max-width: 17ch;
       color: #fff;
       line-height: 1.4;
+      margin: 0;
+      text-align: left;
     }
 
     form {
@@ -36,7 +38,13 @@
       -ms-border-radius: 1rem;
       -o-border-radius: 1rem;
       overflow: hidden;
+      margin: 0;
+      width: auto;
+
       .input-wrapper {
+        width: auto;
+        height: auto;
+
         input {
           border: none;
           outline: none;
@@ -47,6 +55,9 @@
           background-color: rgb(255, 255, 255);
           display: inline-flex;
           margin-right: -2rem;
+          height: auto;
+          width: 100%;
+          display: inline-block;
 
           &:focus {
             border: none;
@@ -74,13 +85,84 @@
         }
       }
       button {
-        padding: 2.4rem 3.6rem;
+        padding: 2.4rem 3.6rem 2.3rem 3.6rem;
         height: 100%;
-        border-radius: 0.5rem;
-        -webkit-border-radius: 0.5rem;
-        -moz-border-radius: 0.5rem;
-        -ms-border-radius: 0.5rem;
-        -o-border-radius: 0.5rem;
+        border-radius: 0 0.5rem 0.5rem 0 !important;
+        -webkit-border-radius: 0 0.5rem 0.5rem 0 !important;
+        -moz-border-radius: 0 0.5rem 0.5rem 0 !important;
+        -ms-border-radius: 0 0.5rem 0.5rem 0 !important;
+        -o-border-radius: 0 0.5rem 0.5rem 0 !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #subscribe {
+    // margin: 13rem 0 10rem 0;
+
+    .subscribe-inner {
+      padding: 4rem 6rem;
+
+      h2 {
+        margin: 0 auto 2rem auto;
+        text-align: center;
+        font-size: 3.5rem;
+        min-width: 100%;
+      }
+
+      form {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        .input-wrapper {
+          width: 100%;
+
+          input {
+            height: 100%;
+            padding: 3.31rem 4rem 3.31rem 2rem;
+          }
+        }
+
+        button {
+          width: 30%;
+          padding: 3.4rem 0 3.2rem 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #subscribe {
+    // margin: 13rem 0 10rem 0;
+
+    .subscribe-inner {
+      padding: 3rem;
+
+      h2 {
+        font-size: 3rem;
+      }
+
+      form {
+        .input-wrapper {
+          input {
+            padding: 2rem;
+            border-radius: 0.5rem 0 0 0.5rem;
+            -webkit-border-radius: 0.5rem 0 0 0.5rem;
+            -moz-border-radius: 0.5rem 0 0 0.5rem;
+            -ms-border-radius: 0.5rem 0 0 0.5rem;
+            -o-border-radius: 0.5rem 0 0 0.5rem;
+          }
+        }
+
+        button {
+          font-size: 1.4rem;
+          padding: 2.1rem 0;
+          width: 40%;
+        }
       }
     }
   }

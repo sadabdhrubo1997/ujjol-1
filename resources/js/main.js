@@ -25,3 +25,15 @@ setScreenJsResponsive();
 window.addEventListener("resize", () => {
   setScreenJsResponsive();
 });
+
+// hanbarger icon and side menu
+
+const hambargerIcon = el("#hambarger-icon");
+const sideNavCloseIcon = el("#side-nav-close-icon");
+const sideNavigationMenu = el("#side-navigation-menu");
+hambargerIcon.addEventListener("click", (e) => {
+  sideNavigationMenu.classList.add("show");
+});
+sideNavCloseIcon.addEventListener("click", (e) => {
+  sideNavigationMenu.classList.remove("show");
+});

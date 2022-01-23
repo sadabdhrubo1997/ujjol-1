@@ -11,9 +11,14 @@
     .menu {
       width: 100%;
       display: flex;
+      flex-direction: row;
       justify-content: space-between;
       align-items: center;
       padding: 2.5rem 0;
+
+      // &.slide{
+
+      // }
 
       .logo {
         width: 14.5rem;
@@ -25,6 +30,7 @@
       }
 
       nav {
+        display: block;
         ul {
           list-style: none;
           display: flex;
@@ -56,7 +62,7 @@
     }
 
     .header-inner-content {
-      margin-top: 5.7rem;
+      padding-top: 5.7rem;
 
       h1 {
         font-size: 6.7rem;
@@ -105,8 +111,21 @@
         img {
           display: inline-block;
           margin: 0 1.1rem;
-          width: .8rem;
+          width: 0.8rem;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    .header-inner {
+      .menu {
+        display: none;
+      }
+      .header-inner-content {
+        padding-top: 20rem;
       }
     }
   }
