@@ -51,11 +51,16 @@
             -ms-border-radius: 0.6rem;
             -o-border-radius: 0.6rem;
             overflow: hidden;
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             img {
               width: 100%;
               height: 100%;
               object-fit: cover;
+              padding: 0;
             }
           }
 
@@ -107,7 +112,12 @@
           img {
             width: 100%;
             height: 100%;
-            object-fit: contain;
+            object-fit: cover;
+            transform: scale(1.01);
+            -webkit-transform: scale(1.01);
+            -moz-transform: scale(1.01);
+            -ms-transform: scale(1.01);
+            -o-transform: scale(1.01);
           }
         }
 
@@ -151,6 +161,7 @@
                 color: #11161f;
                 font-size: 1.6rem;
                 font-weight: 400;
+                text-align: left;
               }
             }
           }

@@ -94,12 +94,12 @@ body {
 
 #side-navigation-menu {
   position: fixed;
-  top: 0;
-  bottom: 0;
+  top: 0%;
+  bottom: 0%;
   left: -100%;
   display: none;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   z-index: 9999999;
   transition: 0.5s;
   -webkit-transition: 0.5s;
@@ -110,7 +110,7 @@ body {
 }
 
 #side-navigation-menu.show {
-  left: 0;
+  left: 0%;
 }
 
 #side-navigation-menu .top {
@@ -933,6 +933,16 @@ footer .copyright .social-links-wrapper .social-link img {
   -ms-border-radius: 0.6rem;
   -o-border-radius: 0.6rem;
   overflow: hidden;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .our-millionaires .our-millionaires-inner .item-wrapper .single-item .top .cover img {
@@ -940,6 +950,7 @@ footer .copyright .social-links-wrapper .social-link img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  padding: 0;
 }
 
 .our-millionaires .our-millionaires-inner .item-wrapper .single-item .top .social-links {
@@ -1005,8 +1016,13 @@ footer .copyright .social-links-wrapper .social-link img {
 .our-millionaires .our-millionaires-inner .item-wrapper .single-item .review-screenshot img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: scale(1.01);
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
 }
 
 .our-millionaires .our-millionaires-inner .item-wrapper .single-item .bottom {
@@ -1068,6 +1084,7 @@ footer .copyright .social-links-wrapper .social-link img {
   color: #11161f;
   font-size: 1.6rem;
   font-weight: 400;
+  text-align: left;
 }
 
 .our-millionaires .our-millionaires-inner .item-wrapper .single-item .bottom a {
